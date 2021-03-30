@@ -6,13 +6,13 @@ public class BilanganGenap {
 
     
     public static void main(String[] args) {
-        int bilgep;
+        int bil_genap ;
         Scanner keyboard = new Scanner(System.in);
 
         System.out.print("Masukkan Batas Angka Bilangan Genap = ");
-        bilgep= keyboard.nextInt();
+        bil_genap= keyboard.nextInt();
 
-        for(int i=2; i<=bilgep; i+=2){
+        for(int i=2; i<=bil_genap; i+=2){
             System.out.print(i + "  ");
         }
     }
